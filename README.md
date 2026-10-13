@@ -15,7 +15,8 @@ npm install                 # or: npm i -g .
 ```
 
 Verification drives a Chrome you already have (via `puppeteer-core`, no 150 MB
-Chromium download). Set `LOTTIE_SQUEEZE_CHROME` if it lives somewhere unusual.
+Chromium download). Set `LOTTIE_SQUEEZE_CHROME` to its executable's path if it lives
+somewhere unusual; `PUPPETEER_EXECUTABLE_PATH` and `CHROME_PATH` work too.
 
 ## Use
 
